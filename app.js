@@ -18,8 +18,7 @@ var campgroundRoutes = require("./routes/campgrounds"),
 
 //  seedDB();  seeding the database
 //mongoose.connect("mongodb://localhost:27017/yelp_calm",{ useNewUrlParser: true});
-mongoose.connect("mongodb+srv://Piyush:piyush@firstcluster.bylyy.mongodb.net/Yelp_calm?retryWrites=true&w=majority",{ useNewUrlParser: true});
-
+// i have disabled mongoose .connect for security purpose
 
 app.use(bodyParser.urlencoded({extended:true}));
 
